@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ImageExample : MonoBehaviour
+
+public class ButtonExample : MonoBehaviour
 {
-
-    public Image myImage;
-    public Sprite newSprite;
-
+    public Button myButton;
+    public void OnButtonClick()
+    {
+        Debug.Log("button Clicker");
+    }
     // Start is called before the first frame update
     void Start()
     {
-        myImage.sprite = newSprite;
+        
     }
 
     // Update is called once per frame

@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ImageExample : MonoBehaviour
+public class ScrollExample : MonoBehaviour
 {
-
-    public Image myImage;
-    public Sprite newSprite;
-
+    public ScrollRect myScrollRect;
     // Start is called before the first frame update
     void Start()
     {
-        myImage.sprite = newSprite;
+        myScrollRect.verticalNormalizedPosition = 1;
     }
 
     // Update is called once per frame

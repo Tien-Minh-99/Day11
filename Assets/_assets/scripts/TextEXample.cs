@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextEXample : MonoBehaviour
+public class TextExample : MonoBehaviour
 {
-    public class TextExample : MonoBehaviour
+
+    public Text myText;
+    void Start()
     {
-        public Text myText;
-        void Start()
-        {
-            myText.text = "Hello, Unity!";
-        }
+        myText.text = "Hello, Unity!";
     }
 }
